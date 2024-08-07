@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: SenderEmail
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: dokadevea@gmail.com
+    password: vhoe sbjy skdu mcni
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
