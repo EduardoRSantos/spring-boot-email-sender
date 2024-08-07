@@ -18,8 +18,6 @@ public class EmailController {
     @Autowired
     EmailService emailService;
 
-    private final static String To = "eduardoow6@gmail.com";
-
     @GetMapping("/sendEmail")
     public String senEmail(@RequestBody Email email){
         try {
