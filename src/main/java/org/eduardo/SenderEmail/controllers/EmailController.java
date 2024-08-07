@@ -23,7 +23,7 @@ public class EmailController {
     @GetMapping("/sendEmail")
     public String senEmail(@RequestBody Email email){
         try {
-            File pdfFile = new File("C:\\Users\\Eduardo\\Downloads\\Curriculo.pdf");
+            File pdfFile = new File("");
             emailService.sendEmailWithAttachment(email, pdfFile);
         }catch (Exception e){
             e.printStackTrace();
